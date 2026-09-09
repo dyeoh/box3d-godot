@@ -12,6 +12,7 @@ windows.release.x86_64 = "res://bin/libbox3d_godot.windows.template_release.x86_
 linux.debug.x86_64 = "res://bin/libbox3d_godot.linux.template_debug.x86_64.so"
 linux.release.x86_64 = "res://bin/libbox3d_godot.linux.template_release.x86_64.so"
 
+macos.editor = "res://bin/libbox3d_godot.macos.editor.framework"
 macos.debug = "res://bin/libbox3d_godot.macos.template_debug.framework"
 macos.release = "res://bin/libbox3d_godot.macos.template_release.framework"
 

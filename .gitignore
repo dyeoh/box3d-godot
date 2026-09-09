@@ -62,3 +62,8 @@ godot/demo/.godot/
 # compare/README.md). Removed automatically after each run; ignored so a stray
 # one can never be committed and alter the demo's physics backend.
 godot/demo/override.cfg
+
+# macOS GDExtension build output. Matches the existing policy for *.so: build
+# products stay untracked, with the committed Windows DLLs as the deliberate
+# clone-and-play exception.
+godot/demo/bin/*.framework/
